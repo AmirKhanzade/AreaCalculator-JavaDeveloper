@@ -1,6 +1,12 @@
 # JavaDeveloper
-In this lab, you took a deep dive into the concepts of classes, objects, and methods in Java. You explored defining more than one class (Rectangle, and Circle), including a utility class (ShapeMetricCalculator), that focused on calculating areas of various shapes.
+This project is a simple Java application that calculates the area of different shapes, such as rectangles and circles.
 
-This repository contains a set of 4 Java files designed to demonstrate object-oriented programming (OOP) principles by calculating properties of geometric shapes: circles and rectangles. The code emphasizes reusability, encapsulation, inheritance, and polymorphism to perform calculations and manage shape-related data.
+In Circle.java, there is a variable with two constructors. This means that if the user does not provide a value for the radius, a predefined default value will be used.
 
-The project serves as a learning resource for understanding OOP concepts in Java through a practical implementation. It highlights how to design clean, modular, and extensible code for solving real-world problems involving shapes. 
+The same logic applies to the Rectangle.java class.
+
+The ShapeMetricCalculator.java class is responsible for performing the area calculations. It contains two methods:
+
+calculateRectangleArea() → Calculates the area of a rectangle.
+
+calculateCircleArea() → Calculates the area of a circle.
